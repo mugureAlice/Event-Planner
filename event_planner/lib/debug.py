@@ -1,4 +1,4 @@
-from .helpers import get_all_events, get_all_guests, get_rsvps_for_event
+from helpers import get_all_events, get_all_guests, get_rsvps_for_event
 from .seed import seed_database
 
 def test_application():
